@@ -39,7 +39,7 @@ func MustLoad() *Config {
 	return &cfg
 }
 
-func FetchConfigPath() {
+func FetchConfigPath() string {
 	var res string
 
 	flag.StringVar(&res, "config", "", "path to config file")

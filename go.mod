@@ -1,15 +1,15 @@
-module grpc
+module grpc-serv
 
 go 1.25.2
 
 require (
+	github.com/ilyakaznacheev/cleanenv v1.5.0
 	google.golang.org/grpc v1.76.0
 	google.golang.org/protobuf v1.36.10
 )
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
-	github.com/ilyakaznacheev/cleanenv v1.5.0 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
 	golang.org/x/net v0.42.0 // indirect
 	golang.org/x/sys v0.34.0 // indirect
